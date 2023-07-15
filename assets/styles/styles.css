@@ -1,0 +1,35 @@
+/* ! GENERAL ! */
+
+/* Custom Properties */
+:root {
+  /* Primary Colors */
+  --primary-color-cyan: #29b3b0;
+  --primary-color-bright-yellow: #c0df34;
+
+  /* Neutral Colors */
+  --neutral-color-light-gray: #e5eff5;
+  --neutral-color-grayish-blue: #98a6bd;
+}
+
+/* Body Styles (Background, Font, Etc.) */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--neutral-color-light-gray);
+  font: 400 1rem Karla, sans-serif;
+}
+
+/* Styles For Visually Hidden Elements  */
+.visually-hidden:not(:focus, :active) {
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* ! SINGLE PRICE GRID COMPONENT ! */
