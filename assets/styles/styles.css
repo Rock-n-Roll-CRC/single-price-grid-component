@@ -1,4 +1,4 @@
-/* ! GENERAL ! */
+/* || GENERAL  */
 
 /* Custom Properties */
 :root {
@@ -9,6 +9,10 @@
   /* Neutral Colors */
   --neutral-color-light-gray: #e5eff5;
   --neutral-color-grayish-blue: #98a6bd;
+
+  /* Other Colors */
+  --other-color-pure-white: #fff;
+  --other-color-ocean-blue: #2dc2bf;
 }
 
 /* Body Styles (Background, Font, Etc.) */
@@ -32,4 +36,75 @@ body {
   width: 1px;
 }
 
-/* ! SINGLE PRICE GRID COMPONENT ! */
+/* || SINGLE PRICE GRID COMPONENT */
+
+.single-price-grid-component {
+  display: grid;
+  grid-template-columns: fit-content(19.4rem);
+}
+
+/* | Join Our Community Section | */
+.join-our-community-section {
+  background-color: var(--other-color-pure-white);
+}
+
+/* Heading */
+.join-our-community-section > .heading {
+  color: var(--primary-color-cyan);
+}
+
+/* Guarantee Note */
+.join-our-community-section > .guarantee-note {
+  color: var(--primary-color-bright-yellow);
+}
+
+/* Description */
+.join-our-community-section > .description {
+  color: var(--neutral-color-grayish-blue);
+}
+
+/* | Monthly Subscription Section | */
+.monthly-subscription-section {
+  background-color: var(--primary-color-cyan);
+}
+
+/* Heading */
+.monthly-subscription-section > .heading {
+  color: var(--other-color-pure-white);
+}
+
+/* Price Per Month Tag */
+.monthly-subscription-section > .price-per-month-tag {
+  color: var(--other-color-pure-white);
+}
+
+.monthly-subscription-section > .price-per-month-tag > span {
+  color: var(--neutral-color-light-gray);
+}
+
+/* Price Per Day Tag */
+.monthly-subscription-section > .price-per-day-tag {
+  color: var(--other-color-pure-white);
+}
+
+/* Sign Up Button */
+.monthly-subscription-section > .sign-up-button {
+  color: var(--other-color-pure-white);
+  background-color: var(--primary-color-bright-yellow);
+  border: 0;
+}
+
+/* | Why Us Section | */
+.why-us-section {
+  background-color: var(--other-color-ocean-blue);
+}
+
+/* Heading */
+.why-us-section > .heading {
+  color: var(--other-color-pure-white);
+}
+
+/* Description */
+.why-us-section > .description {
+  color: var(--neutral-color-light-gray);
+}
