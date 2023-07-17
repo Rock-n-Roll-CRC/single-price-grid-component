@@ -46,31 +46,44 @@ body {
 /* | Join Our Community Section | */
 .join-our-community-section {
   background-color: var(--other-color-pure-white);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 1.75rem 1.48rem 1.99rem;
 }
 
 /* Heading */
 .join-our-community-section > .heading {
   color: var(--primary-color-cyan);
+  font: 700 1.2rem Karla, sans-serif;
+  word-spacing: 0.04rem;
 }
 
 /* Guarantee Note */
 .join-our-community-section > .guarantee-note {
   color: var(--primary-color-bright-yellow);
+  font: 700 0.91rem Karla, sans-serif;
+  line-height: 1.35;
+  margin-top: 1.55rem;
 }
 
 /* Description */
 .join-our-community-section > .description {
   color: var(--neutral-color-grayish-blue);
+  font: 400 0.854rem Karla, sans-serif;
+  line-height: 1.89;
+  margin-top: 1.05rem;
 }
 
 /* | Monthly Subscription Section | */
 .monthly-subscription-section {
   background-color: var(--primary-color-cyan);
+  padding: 1.49rem 1.48rem 1.96rem;
 }
 
 /* Heading */
 .monthly-subscription-section > .heading {
   color: var(--other-color-pure-white);
+  font: 700 1.1rem Karla, sans-serif;
 }
 
 /* Price Per Month Tag */
@@ -97,6 +110,8 @@ body {
 /* | Why Us Section | */
 .why-us-section {
   background-color: var(--other-color-ocean-blue);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 /* Heading */
