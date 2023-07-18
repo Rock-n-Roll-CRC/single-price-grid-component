@@ -22,6 +22,7 @@ body {
   justify-content: center;
   background: var(--neutral-color-light-gray);
   font: 400 1rem Karla, sans-serif;
+  padding: 4.5rem 2rem;
 }
 
 /* Styles For Visually Hidden Elements  */
@@ -70,14 +71,14 @@ body {
 .join-our-community-section > .description {
   color: var(--neutral-color-grayish-blue);
   font: 400 0.854rem Karla, sans-serif;
-  line-height: 1.89;
+  line-height: 1.9;
   margin-top: 1.05rem;
 }
 
 /* | Monthly Subscription Section | */
 .monthly-subscription-section {
   background-color: var(--primary-color-cyan);
-  padding: 1.49rem 1.48rem 1.96rem;
+  padding: 1.55rem 1.48rem 1.4rem;
 }
 
 /* Heading */
@@ -88,23 +89,35 @@ body {
 
 /* Price Per Month Tag */
 .monthly-subscription-section > .price-per-month-tag {
+  display: flex;
+  align-items: center;
   color: var(--other-color-pure-white);
+  font: 700 1.96rem Karla, sans-serif;
+  margin-top: 1.1rem;
 }
 
 .monthly-subscription-section > .price-per-month-tag > span {
   color: var(--neutral-color-light-gray);
+  font: 400 0.98rem Karla, sans-serif;
+  margin-left: 0.8rem;
 }
 
 /* Price Per Day Tag */
 .monthly-subscription-section > .price-per-day-tag {
   color: var(--other-color-pure-white);
+  font: 400 0.975rem Karla, sans-serif;
+  margin-top: 0.5rem;
 }
 
 /* Sign Up Button */
 .monthly-subscription-section > .sign-up-button {
+  width: 100%;
   color: var(--other-color-pure-white);
   background-color: var(--primary-color-bright-yellow);
   border: 0;
+  border-radius: 5px;
+  padding: 0.908rem 0;
+  margin-top: 1.86rem;
 }
 
 /* | Why Us Section | */
@@ -112,14 +125,22 @@ body {
   background-color: var(--other-color-ocean-blue);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  padding: 1.67rem 1.48rem 1.44rem;
 }
 
 /* Heading */
 .why-us-section > .heading {
   color: var(--other-color-pure-white);
+  font: 700 1.1rem Karla, sans-serif;
 }
 
 /* Description */
-.why-us-section > .description {
+.why-us-section > .feature-list {
   color: var(--neutral-color-light-gray);
+  font: 400 0.854rem Karla, sans-serif;
+  line-height: 1.464;
+  list-style: none;
+  padding: 0;
+  margin-top: 1.2rem;
+  margin-bottom: 0;
 }
