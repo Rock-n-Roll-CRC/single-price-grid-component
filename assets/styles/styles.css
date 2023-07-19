@@ -13,6 +13,10 @@
   /* Other Colors */
   --other-color-pure-white: #fff;
   --other-color-ocean-blue: #2dc2bf;
+
+  /* Shadow Colors */
+  --shadow-color-card: #0000001a;
+  --shadow-color-button: #00000017;
 }
 
 /* Body Styles (Background, Font, Etc.) */
@@ -42,6 +46,7 @@ body {
 .single-price-grid-component {
   display: grid;
   grid-template-columns: fit-content(19.4rem);
+  box-shadow: 0 0 25px var(--shadow-color-card);
 }
 
 /* | Join Our Community Section | */
@@ -78,7 +83,7 @@ body {
 /* | Monthly Subscription Section | */
 .monthly-subscription-section {
   background-color: var(--primary-color-cyan);
-  padding: 1.55rem 1.48rem 1.4rem;
+  padding: 1.55rem 1.48rem 1.43rem;
 }
 
 /* Heading */
@@ -116,8 +121,20 @@ body {
   background-color: var(--primary-color-bright-yellow);
   border: 0;
   border-radius: 5px;
+  cursor: pointer;
   padding: 0.908rem 0;
   margin-top: 1.86rem;
+  box-shadow: 0 10px 10px var(--shadow-color-button);
+  transition: color 0.15s, background-color 0.15s, opacity 0.15s;
+}
+
+.monthly-subscription-section > .sign-up-button:hover {
+  color: var(--primary-color-bright-yellow);
+  background-color: var(--other-color-pure-white);
+}
+
+.monthly-subscription-section > .sign-up-button:active {
+  opacity: 0.8;
 }
 
 /* | Why Us Section | */
