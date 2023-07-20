@@ -41,11 +41,12 @@ body {
   width: 1px;
 }
 
-/* || SINGLE PRICE GRID COMPONENT */
+/* || SINGLE PRICE GRID COMPONENT (MOBILE) */
 
 .single-price-grid-component {
   display: grid;
   grid-template-columns: fit-content(19.4rem);
+  border-radius: 5px;
   box-shadow: 0 0 25px var(--shadow-color-card);
 }
 
@@ -160,4 +161,52 @@ body {
   padding: 0;
   margin-top: 1.2rem;
   margin-bottom: 0;
+}
+
+/* || SINGLE PRICE GRID COMPONENT (DESKTOP) */
+@media all and (width >= 48rem) {
+  .single-price-grid-component {
+    grid-template-columns: repeat(2, minmax(50%, 19.844rem));
+    border-radius: 8px;
+  }
+
+  /* | Join Our Community Section | */
+  .join-our-community-section {
+    grid-column: span 2;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 2.6rem 2.51rem 2.45rem;
+  }
+
+  /* Heading */
+  .join-our-community-section > .heading {
+    font: 700 1.45rem Karla, sans-serif;
+  }
+
+  /* Guarantee Note */
+  .join-our-community-section > .guarantee-note {
+    font: 700 1.1rem Karla, sans-serif;
+    margin-top: 1.58rem;
+  }
+
+  /* Description */
+  .join-our-community-section > .description {
+    font: 400 0.98rem Karla, sans-serif;
+    line-height: 1.66;
+    margin-top: 0.69rem;
+  }
+
+  /* | Monthly Subscription Section | */
+  .monthly-subscription-section {
+    grid-column: 1;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 0;
+  }
+
+  /* | Why Us Section | */
+  .why-us-section {
+    grid-column: 2;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 8px;
+  }
 }
