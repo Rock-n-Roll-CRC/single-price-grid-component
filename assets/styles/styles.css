@@ -201,6 +201,22 @@ body {
     grid-column: 1;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 0;
+    padding: 2.6rem 2.5rem 2.381rem;
+  }
+
+  /* Price Per Month Tag */
+  .monthly-subscription-section > .price-per-month-tag {
+    margin-top: 1.11rem;
+  }
+
+  /* Price Per Day Tag */
+  .monthly-subscription-section > .price-per-day-tag {
+    margin-top: 0.5rem;
+  }
+
+  /* Sign Up Button */
+  .monthly-subscription-section > .sign-up-button {
+    margin-top: 1.9rem;
   }
 
   /* | Why Us Section | */
@@ -208,5 +224,6 @@ body {
     grid-column: 2;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 8px;
+    padding: 2.6rem 2.5rem 1.44rem;
   }
 }
